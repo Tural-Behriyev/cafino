@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Cafino</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/images/cafino_logo.png" rel="icon">
+
+  <link rel="stylesheet" href="assets/plugins/animate.css/animate.min.css"/>
+  <link rel="stylesheet" href="assets/plugins/aos/css/aos.css"/>
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/fonts.css"/>
+  <link rel="stylesheet" href="assets/plugins/glightbox/css/glightbox.min.css">
+  <link rel="stylesheet" href="assets/plugins/swiper/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/main.css"/>
+  <script src="assets/plugins/fontawesome/js/all.min.js"></script>
+  <script src="assets/plugins/owl_carousel/owl.carousel.js"></script>
+ 
+</head>
+
+<body> 
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+      <div class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/images/cafino_logo.png" alt=""></a></div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul id="myLinks">
+          <li><a class="nav-link scrollto active" href="about.html">Haqqımızda</a></li>
+          <li><a class="nav-link scrollto" href="menu.html">Menyu</a></li>
+          <li><a class="nav-link scrollto" href="blog.html">Blog   <!-- <i class="fa-solid fa-pen"></i> --></a></li>
+          <li><a class="nav-link scrollto" href="gallery.html">Qalereya</a></li>
+          <li><a class="nav-link scrollto" href="reservation.html">Rezervasiya</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Əlaqə</a></li>
+        </ul>
+      <div class="menu-btn" onclick="myFunction()">
+        <div class="menu-btn__burger"></div>
+      </div>
+     </nav><!-- navbar -->
+      <a href="reservation.html" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+
+  <section id="hero" class="d-flex align-items-center" style="background-image: url('assets/images/bg_img.png');">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1 class="my-5">Cafino</h1>
+          <h2>Cofee & Wine</h2>
+          <p>Bizimlə yeni macəralara hazırsınız?  Bir stəkan sevimli qəhvə ilə şən, dadlı gün, yoxsa bir qədəh qırmızı şərabla günün şən sonluğu?  Hər halda, hamınızı Саfinoda gözləyirik!</p>
+          <div class="btns">
+            <a href="menu.html" class="btn-menu animated fadeInUp scrollto">menu</a>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+          <a href="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fcafinocoffee%2Fvideos%2F854218772682800%2F&show_text=false&width=267&t=0" target="_blank" class="glightbox play-btn"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  
+   <!-- End Hero -->
+
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about" style="background-image: url('assets/images/about_bg.jpg');">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="assets/images/about_img.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <div class="section-title">
+              <p class="about_title">Cafino haqqında</p>
+            </div>
+            <p class="fst-italic">
+              Sed sagittis sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. Donec pulvinar tellus egetmagna aliquet ultricies. Praesent gravida
+            </p>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum
+            </p>
+            <div class=""><a href="about.html">Daha ətraflı<i class="fa-solid fa-arrow-right ms-2"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Menu Section ======= -->
+    
+    <section id="menu" class="menu section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Menu</h2>
+          <p>Check Our Tasty Menu</p>
+        </div>
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter=".filter-hot_coffe" class="filter-active"><div>Hot coffee</div></li>
+              <li data-filter=".filter-cold_cofee"><div>Cold coffee</div></li>
+              <li data-filter=".filter-hot_drinks"><div>Hot drinks</div></li>
+              <li data-filter=".filter-tea"><div>Tea</div></li>
+              <li data-filter=".filter-cocktails"><div>Cocktails</div></li>
+              <li data-filter=".filter-lemonade"><div>Lemonade</div></li>
+              <li data-filter=".filter-shake"><div>Shake/Smoothies</div></li>
+              <li data-filter=".filter-chillers"><div>Chillers</div></li>
+              <li data-filter=".filter-fresh_juice"><div>Fresh Juice</div></li>
+              <li data-filter=".filter-extra"><div>Extra</div></li>
+              <li data-filter=".filter-desserts"><div>Desserts</div></li>
+              <li data-filter=".filter-sandwiches"><div>Sandwiches</div></li>
+              <li data-filter=".filter-wine"><div>Wine</div></li>
+              <li data-filter=".filter-beer"><div>Beer</div></li>
+              <li data-filter=".filter-snacks"><div>Snacks</div></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-6 menu-item filter-hot_coffe">
+            <div class="img"><img src="assets/images/menu_img/americano.jpeg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Americano</a><span>4 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cold_cofee">
+            <div class="img"><img src="assets/images/menu_img/iced_latte.jpeg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Iced Latte</a><span>4.9 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-hot_drinks">
+            <div class="img"><img src="assets/images/menu_img/mocha.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Mocha</a><span>5.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-tea">
+            <div class="img"><img src="assets/images/menu_img/black_tea.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Qara çay</a><span>6/2.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cocktails">
+            <div class="img"><img src="assets/images/menu_img/mojito_classic.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Mojito Classic</a><span>6 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-lemonade">
+            <div class="img"><img src="assets/images/menu_img/bubble_gum_&_watermelon.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Bubble Gum & Watermelon</a><span>6.9 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-shake">
+            <div class="img"><img src="assets/images/menu_img/banan_shake.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Banan</a><span>6.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-chillers">
+            <div class="img"><img src="assets/images/menu_img/strawberry_chillers.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Çiyələk</a><span>8 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-fresh_juice">
+            <div class="img"><img src="assets/images/menu_img/apple_fresh_juice.jpeg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Alma</a><span>5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-extra">
+            <div class="img"><img src="assets/images/menu_img/almond_coconut_milk.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Badam/Kokos Südü</a><span>3 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-desserts">
+            <div class="img"><img src="assets/images/menu_img/kruasan.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Kruasan</a><span>2.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-sandwiches">
+            <div class="img"><img src="assets/images/menu_img/chicken_sandwich.png" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Toyuq sendviç</a><span>5.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-wine">
+            <div class="img"><img src="assets/images/menu_img/savalan_red_dry.png" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Savalan Red Dry</a><span>25/5.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-beer">
+            <div class="img"><img src="assets/images/menu_img/carlsberg.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Carlsberg</a><span>6 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-snacks">
+            <div class="img"><img src="assets/images/menu_img/fruit_plate.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Meyvə seti</a><span>10 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+                             
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+
+
+          <div class="col-lg-6 menu-item filter-hot_coffe">
+            <div class="img"><img src="assets/images/menu_img/latte.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Latte</a><span>4.5/5.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-cold_cofee">
+            <div class="img"><img src="assets/images/menu_img/frappuccino.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Frappuccino</a><span>6.9 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-hot_drinks">
+            <div class="img"><img src="assets/images/menu_img/hot_white_chocolate.png" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Ağ Şokolad</a><span>5.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-tea">
+            <div class="img"><img src="assets/images/menu_img/moroccan_tea.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Mərakeş çayı</a><span>5.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-cocktails">
+            <div class="img"><img src="assets/images/menu_img/red_sky.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Red Sky</a><span>7 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-lemonade">
+            <div class="img"><img src="assets/images/menu_img/klassik_limonad.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Klassik Limonad</a><span>5.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-shake">
+            <div class="img"><img src="assets/images/menu_img/chocolate_shake.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Şokolad</a><span>6.9 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-fresh_juice">
+            <div class="img"><img src="assets/images/menu_img/orange_fresh_juice.jpeg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Portağal</a><span>6 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+            </div>
+          </div>
+        
+        
+          <div class="col-lg-6 menu-item filter-extra">
+            <div class="img"><img src="assets/images/menu_img/syrup.webp" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Sirop</a><span>1 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-desserts">
+            <div class="img"><img src="assets/images/menu_img/cheesecake.png" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Cheesecake</a><span>6.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-sandwiches">
+            <div class="img"><img src="assets/images/menu_img/turkey_sandwich.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Hinduşka sendviç</a><span>6.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-wine">
+            <div class="img"><img src="assets/images/menu_img/savalan_red_semi_dry.png" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Savalan Red Semi-Dry</a><span>23/5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-beer">
+            <div class="img"><img src="assets/images/menu_img/efes.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Efes</a><span>6 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-snacks">
+            <div class="img"><img src="assets/images/menu_img/fruit_plate.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Saçaqlı pendir</a><span>3 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+                   
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+
+
+          <div class="col-lg-6 menu-item filter-hot_coffe">
+            <div class="img"><img src="assets/images/menu_img/flat_white.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Flat white</a><span>4.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-cold_cofee">
+            <div class="img"><img src="assets/images/menu_img/frappuccino.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Icepresso Amaretto</a><span>6.9 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-hot_drinks">
+            <div class="img"><img src="assets/images/menu_img/hot_chocolate.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">İsti Şokolad</a><span>5.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-tea">
+            <div class="img"><img src="assets/images/menu_img/jasmine_tea.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Jasmin çayı</a><span>6.5/3 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-cocktails">
+            <div class="img"><img src="assets/images/menu_img/aperol.webp" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Aperol</a><span>8.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-lemonade">
+            <div class="img"><img src="assets/images/menu_img/mango_&_maracuja.png" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Mango & Maracuja</a><span>6.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-shake">
+            <div class="img"><img src="assets/images/menu_img/oreo_shake.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Oreo</a><span>7.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-chillers">
+            <div class="img"><img src="assets/images/menu_img/mango_&_maracuja_shake.png" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Mango & Maracuja</a><span>7.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+            </div>
+          </div>
+             
+          <div class="col-lg-6 menu-item filter-extra">
+            <div class="img"><img src="assets/images/menu_img/milk.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Süd</a><span>1 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-desserts">
+            <div class="img"><img src="assets/images/menu_img/honey_cake.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Ballı tort</a><span>6.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-wine">
+            <div class="img"><img src="assets/images/menu_img/hillside_red_dry.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Hillside Red Dry</a><span>23/6 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+        
+          <div class="col-lg-6 menu-item filter-snacks">
+            <div class="img"><img src="assets/images/menu_img/cheese_plate.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Pendir seti</a><span>8/14 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+   
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+
+
+          <div class="col-lg-6 menu-item filter-hot_coffe">
+            <div class="img"><img src="assets/images/menu_img/chai_tea_latte.webp" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Chai Tea Latte</a><span>5.9/6.9 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-cold_cofee">
+            <div class="img"><img src="assets/images/menu_img/iced_raf.webp" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Iced Raf</a><span>6.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-tea">
+            <div class="img"><img src="assets/images/menu_img/mixed_tea.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Qarışıq çay</a><span>7/3.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-cocktails">
+            <div class="img"><img src="assets/images/menu_img/energy_mojito.png" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Energy Mojito</a><span>7.9 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-lemonade">
+            <div class="img"><img src="assets/images/menu_img/mixed_berries.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Qarışıq Giləmeyvə</a><span>6.9 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-shake">
+            <div class="img"><img src="assets/images/menu_img/strawberry_shake.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Çiyələk</a><span>6.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+            </div>
+          </div>
+             
+          <div class="col-lg-6 menu-item filter-extra">
+            <div class="img"><img src="assets/images/menu_img/cream.webp" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Qaymaq</a><span>1 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-desserts">
+            <div class="img"><img src="assets/images/menu_img/chocolate_croissant.png" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Şokoladlı Kruassan</a><span>3 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-wine">
+            <div class="img"><img src="assets/images/menu_img/hillside_red_dry.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Hillside Red Semi-Dry</a><span>27/6 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+
+
+          <div class="col-lg-6 menu-item filter-hot_coffe">
+            <div class="img"><img src="assets/images/menu_img/spanish_latte.webp" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Spanish Latte</a><span>5.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-cold_cofee">
+            <div class="img"><img src="assets/images/menu_img/iced _chai_tea.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Iced Chai Tea</a><span>7 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-cocktails">
+            <div class="img"><img src="assets/images/menu_img/iced_tea.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Iced Tea</a><span>5.9 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-shake">
+            <div class="img"><img src="assets/images/menu_img/white_chocolate_shake.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Ağ Şokolad</a><span>6.9 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-desserts">
+            <div class="img"><img src="assets/images/menu_img/san_sebastian.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">San Sebastian</a><span>7 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-wine">
+            <div class="img"><img src="assets/images/menu_img/savalan_red_semi_sweet.png" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Savalan Red Semi-Sweet</a><span>23/5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+
+
+          <div class="col-lg-6 menu-item filter-hot_coffe">
+            <div class="img"><img src="assets/images/menu_img/espresso.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Espresso</a><span>3.2 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-cold_cofee">
+            <div class="img"><img src="assets/images/menu_img/matcha.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Matcha</a><span>5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-desserts">
+            <div class="img"><img src="assets/images/menu_img/oreo_krep.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Oreo Krep</a><span>7 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+         
+          <div class="col-lg-6 menu-item filter-wine">
+            <div class="img"><img src="assets/images/menu_img/savalan_white_dry.png" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Savalan White Dry</a><span>23/5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+
+
+          <div class="col-lg-6 menu-item filter-hot_coffe">
+            <div class="img"><img src="assets/images/menu_img/cappuccino.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Cappuccino</a><span>4.5/5.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          
+          <div class="col-lg-6 menu-item filter-cold_cofee">
+            <div class="img"><img src="assets/images/menu_img/iced_matcha_latte.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Iced Matcha Latte</a><span>7.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          
+          <div class="col-lg-6 menu-item filter-wine">
+            <div class="img"><img src="assets/images/menu_img/hillside_red_semi-sweet.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Hillside Red Semi-Sweet</a><span>27/6 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+
+
+          <div class="col-lg-6 menu-item filter-hot_coffe">
+            <div class="img"><img src="assets/images/menu_img/raf.webp" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Raf</a><span>5.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          
+          <div class="col-lg-6 menu-item filter-cold_cofee">
+            <div class="img"><img src="assets/images/menu_img/iced_cappuccino.jpeg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Iced Cappuccino</a><span>4.9 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          
+          <div class="col-lg-6 menu-item filter-wine">
+            <div class="img"><img src="assets/images/menu_img/hillside_white_dry.png" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Hillside White Dry</a><span>27/6 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+
+
+          <div class="col-lg-6 menu-item filter-hot_coffe">
+            <div class="img"><img src="assets/images/menu_img/caramel_macchiato.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Caramel Macchiato</a><span>6.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          
+          <div class="col-lg-6 menu-item filter-cold_cofee">
+            <div class="img"><img src="assets/images/menu_img/iced_americano.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Iced Americano</a><span>5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          
+
+          
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+
+
+          <div class="col-lg-6 menu-item filter-hot_coffe">
+            <div class="img"><img src="assets/images/menu_img/espresso_con_panna.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Espresso Con Panna</a><span>4.2 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+          
+          <div class="col-lg-6 menu-item filter-cold_cofee">
+            <div class="img"><img src="assets/images/menu_img/iced_americano.jpg" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Icepresso Mint</a><span>6.9 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+
+          
+          <div class="col-lg-6 menu-item filter-cold_cofee">
+            <div class="img"><img src="assets/images/menu_img/iced_mocha.webp" class="menu-img" alt="">
+            </div>
+            <div class="menu-content">
+              <a href="#">Iced Mocha</a><span>6.5 ₼</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+                
+
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+
+          
+         <div class="col-lg-6 menu-item filter-cold_cofee">
+          <div class="img"><img src="assets/images/menu_img/iced_spanish_latte.jpg" class="menu-img" alt="">
+          </div>
+           <div class="menu-content">
+             <a href="#">Iced Spanish Latte</a><span>6.5 ₼</span>
+           </div>
+           <div class="menu-ingredients">
+             Lorem, deren, trataro, filede, nerada
+           </div>
+         </div>
+                      
+
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+                <!-- .....   --><!-- .....   --><!-- .....   --><!-- .....   -->
+
+          
+         <div class="col-lg-6 menu-item filter-cold_cofee">
+          <div class="img"><img src="assets/images/menu_img/matcha_latte.jpg" class="menu-img" alt="">
+          </div>
+           <div class="menu-content">
+             <a href="#">Matcha Latte</a><span>7 ₼</span>
+           </div>
+           <div class="menu-ingredients">
+             Lorem, deren, trataro, filede, nerada
+           </div>
+         </div>
+      
+
+
+
+        </div>
+      </div>
+    </section> 
+    <!-- End Menu Section -->
+
+
+   <section id="reservation" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Reservation</h2>
+          <p>Rezervasiya</p>
+        </div>
+        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="number" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="date" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="time" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+          </div>
+          <div class="text-center"><button class="book_btn" type="submit">Book a Table</button></div>
+        </form>
+      </div>
+    </section> 
+    
+    <!-- End Book A Table Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg bg-dark">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Şəkillər</h2>
+          <p>Müştəri rəyləri</p>
+        </div>
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+                <div class="testimonials-img">
+                <img src="assets/images/testimonials_img/testimonials_1.jpg" class="testimonial-img" alt=""></div>
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+                <div class="testimonials-img">
+                <img src="assets/images/testimonials_img/testimonials_2.jpg" class="testimonial-img" alt=""></div>
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+                <div class="testimonials-img">
+                <img src="assets/images/testimonials_img/testimonials_3.jpg" class="testimonial-img" alt=""></div>
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+                <div class="testimonials-img">
+                <img src="assets/images/testimonials_img/testimonials_4.jpg" class="testimonial-img" alt=""></div>
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+                <div class="testimonials-img">
+                <img src="assets/images/testimonials_img/testimonials_5.jpg" class="testimonial-img" alt=""></div>
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section><!-- End Testimonials Section -->
+
+
+        <!-- ======= Blog Section ======= -->
+
+    <section id="blog" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="section-title">
+          <h2>Blog</h2>
+          <p>Blog</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="myImg">
+                  <img alt="" class="panel-image-preview" src="assets/images/blog_img.jpg">
+                  <div class="caption">
+                    <a href="blog.html"><span class="fontz-text glow">World’s most famous app developers and designers</span></a>
+                  </div>
+                </div>
+                <p>
+                  My father was... a drinker, and a fiend. And one night, he goes off crazier than usual. Mommy gets the kitchen knife to defend herself. He doesn't like that, not one bit. So, me watching he takes the knife to her, laughing while he does it. He turns to me and he says: "Why so serious?". He comes at me with the knife "Why so serious?". He sticks the blade in my mouth. "Let's put a smile on that face." and... Why so serious?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="myImg">
+                  <img alt="" class="panel-image-preview" src="assets/images/blog_2_img.jfif">
+                  <div class="caption">
+                    <a href="blog.html"><span class="fontz-text glow">Ləzzətli Americano😍</span>
+                    </a>
+                  </div>
+                </div>
+                <p>
+                  My father was... a drinker, and a fiend. And one night, he goes off crazier than usual. Mommy gets the kitchen knife to defend herself. He doesn't like that, not one bit. So, me watching he takes the knife to her, laughing while he does it. He turns to me and he says: "Why so serious?". He comes at me with the knife "Why so serious?". He sticks the blade in my mouth. "Let's put a smile on that face." and... Why so serious?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center"><button class="blog_btn" type="submit">Hamısına Bax</button></div>
+      </div>
+    </div>
+    </section>
+        
+        <!-- End Blog Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    
+    <section id="gallery" class="gallery">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Galeriya</h2>
+          <p>Cafemizin Fotoları</p>
+        </div>
+      </div>
+      <div class="container" data-aos="fade-up">
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG98ZW58MHx8MHx8&w=1000&q=80" class="testimonial-img" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="assets/images/galery_img/gallery_2.jpg" class="gallery-img" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="assets/images/galery_img/gallery_3.jpg" class="gallery-img" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="assets/images/galery_img/gallery_7.jpg" class="gallery-img" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="assets/images/galery_img/gallery_5.jpg" class="gallery-img" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="assets/images/galery_img/gallery_6.jpg" class="gallery-img" alt="">
+              </div>
+            </div>
+            <!-- <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="assets/images/galery_img/gallery_7.jpg" class="gallery-img" alt="">
+              </div>
+            </div> -->
+            <!-- <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="assets/images/galery_img/gallery_8.jpg" class="gallery-img" alt="">
+              </div>
+            </div> -->
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
+
+    </section>
+    <!-- End Gallery Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="row mt-5">
+          <div class="section-title">
+            <p>Sualınız var?</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="fa-regular fa-location-dot"></i>
+                <h4>Ünvan:</h4>
+                <p>Bakı ş., Səid Rüstəmov küç. 17</p>
+              </div>
+              <div class="open-hours">
+                <i class="fa-regular fa-clock"></i>
+                <h4>Açıq saatlar:</h4>
+                <p>
+                  Monday-Saturday:<br>
+                  11:00 AM - 2300 PM
+                </p>
+              </div>
+              <div class="email">
+                <i class="fa-regular fa-envelope"></i>
+                <h4>E-mail:</h4>
+                <p>support@cafino.az</p>
+              </div>
+              <div class="phone">
+                <i class="fa-regular fa-mobile"></i>
+                <h4>Mobil:</h4>
+                <p>+994 55 272-06-66</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Ad, Soyad" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="tel" class="form-control" name="phone" id="Telefon" placeholder="Telefon" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="8" placeholder="Mesajınız" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button class="contact_btn" type="submit">Göndər</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- End Contact Section -->
+
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <div class="footer_logo mb-5"><img src="assets/images/footer_logo.png" alt=""></div>
+              <div class="social-links">
+                <a href="https://www.facebook.com/cafinocoffee/" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/cafinocoffee/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://t.me/samadovlaw" class="telegram"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://wa.me/+994552720666" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <ul>
+              <li><a href="#about">Haqqımızda</a></li>
+              <li><a href="#menu">Menyu</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#gallery">Qalereya</a></li>
+              <li><a href="#reservation">Rezervasiya</a></li>
+              <li><a href="#contact">Əlaqə</a></li>
+              <li><a href="#">İstifadə qaydaları</a></li>
+              <li><a href="#">Məxfilik Siyasəti</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <p>
+              Bakı ş., Səid Rüstəmov küç. 17 <br>
+              +994 55 272-06-66 <br>
+              support@cafino.az
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <p>Ən son xəbərləri, yenilikləri və xüsusi təklifləri əldə etmək üçün abunə olun.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Abune olun">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy;  Cafino 2022 <strong>Bütün hüquqlar qorunur.</strong>. 
+      </div>
+      <div class="credits">
+        Designed by <a href="https://era.az/" target="_blank">ERA Soft LLC</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  
+
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <script src="assets/plugins/jquery/jquery.min.js"></script>
+  <script src="assets/plugins/bootstrap/js/bootstrap.js"></script>
+  <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/plugins/aos/js/aos.js"></script>
+  <script src="assets/plugins/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/plugins/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/plugins/swiper/js/swiper-bundle.min.js"></script>
+  <script src="assets/plugins/validate/validate.js"></script>
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
